@@ -1,0 +1,37 @@
+.profilePic img {
+    width: 13rem;
+    border-radius: 50%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.heading span {
+    display: block;
+    text-transform: uppercase;
+}
+
+.lastname {
+    font-weight: 300;
+}
+
+.intro {
+    border-top: 2px solid var(--home-intro-bordercolor);
+    border-bottom: 2px solid var(--home-intro-bordercolor);
+    margin-top: 2rem;
+    padding: 0 1rem 1.5rem;
+    text-align: center;
+    min-width: 30%;
+}
+
+.homepagePara {
+    margin-top: 2rem;
+}
+.homepagePara span {
+    color: var(--home-intro-color);
+    display: block;
+    text-align: center;
+}

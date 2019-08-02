@@ -1,0 +1,142 @@
+.blogArticlesList {
+    width: 73%;
+    background-color: var(--body-bgcolor);
+    border-right: 1px solid var(--article-separator);
+}
+
+.blogMeta {
+    width: 24%;
+    background-color: var(--body-bgcolor);
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-left: 0.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .blogArticlesList {
+        width: 100%;
+    }
+
+    .blogMeta {
+        width: 100%;
+    }
+}
+
+.pageHeader {
+    font-size: 2rem;
+}
+
+.articleList article + article {
+    padding-top: 1.75rem;
+}
+
+.articleList + .articleList {
+    margin-top: 5.5rem;
+}
+
+.yearOfArticle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.monthOfArticle h4 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.monthOfArticle + .monthOfArticle {
+    margin-top: 1rem;
+}
+
+.dateOfArticle {
+    display: flex;
+    margin: 1rem 0 .5rem 0;
+    align-items: flex-start;
+}
+.dateOfArticle + .dateOfArticle {
+    padding-top: .5rem;
+}
+.dateOfArticle h5 {
+    margin: 0;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--invert-color);
+    background-color: var(--invert-color);
+    color: var(--body-bgcolor);
+    width: 2.35rem;
+    padding: 0.4rem 0.5rem;
+    text-align: center;
+    font-family: source-code-pro, monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.articles > article {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.articles > article + article {
+    margin: 0 0 0 1rem;
+    padding: .5rem 0;
+    border: none;
+}
+.articles > article > aside {
+    display: flex;
+    align-items: center;
+}
+.articles > article > aside > * {
+    color: var(--home-intro-color);
+}
+.articles > article > aside > * + * {
+    margin-left: .5rem;
+}
+
+.articleHeader {
+    a:hover, a:active {
+        text-decoration: underline;
+    }
+}
+
+.blogMetaList {
+
+    ul {
+        list-style: none;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            a {
+                font-size: 1rem;
+
+                &:hover, &:active {
+                    text-decoration: underline;
+                }
+            }
+        }
+        li + li {
+            margin-top: .5rem;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-flow: row wrap;
+
+        a {
+            font-size: 1rem;
+            border: 1px solid var(--invert-color);
+            padding: .3rem;
+            margin: .3rem;
+
+            &:hover, &:active {
+                color: var(--body-bgcolor);
+                background-color: var(--invert-color);
+            }
+        }
+    }
+}
+

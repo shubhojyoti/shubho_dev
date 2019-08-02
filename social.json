@@ -1,0 +1,27 @@
+[
+    {
+        "key": "twitter",
+        "url": "https://twitter.com/boomboomshubho",
+        "alt": "Connect with Shubho at Twitter"
+    },
+    {
+        "key": "github",
+        "url": "https://github.com/shubhojyoti",
+        "alt": "LinkedIn Profile of Shubho"
+    },
+    {
+        "key": "linkedin",
+        "url": "https://www.linkedin.com/in/shubhojyoti/",
+        "alt": "LinkedIn Profile of Shubho"
+    },
+    {
+        "key": "dev",
+        "url": "https://dev.to/shubho",
+        "alt": "Dev.to profile of Shubho"
+    },
+    {
+        "key": "contact",
+        "url": "mailto:shubho[AT]shubho.dev",
+        "alt": "Contact Shubho"
+    }
+]
