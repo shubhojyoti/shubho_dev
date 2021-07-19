@@ -23,7 +23,7 @@
     "gatsby-remark-prismjs": "https://github.com/shubhojyoti/gatsby-remark-prismjs.git",
     "gatsby-remark-reading-time": "^1.0.1",
     "gatsby-source-filesystem": "^2.0.39",
-    "gatsby-source-wordpress": "^3.1.4",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-remark": "^2.5.0",
     "gatsby-transformer-sharp": "^2.1.21",
     "localstorage": "^1.0.1",
